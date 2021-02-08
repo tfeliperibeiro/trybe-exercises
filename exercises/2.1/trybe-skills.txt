@@ -3,4 +3,6 @@
 - Git
 - HTML 
 - CSS
-Node.JS
+- JavaScript
+- Node.JS
+
