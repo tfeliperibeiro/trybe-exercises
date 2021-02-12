@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.image {
+    margin-top: 120px;
+    margin-left: 80px;
+}
+
+.super-mario {
+    width: 150px;
+    position: absolute;
+    margin-left: 20px;
+}
+
+.goomba {
+    width: 100px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 200px;
+
+}
+
+.word {
+    display: block;
+    position: absolute;
+    margin-left: 415px;
+    z-index: 1;
+    margin-top: 30px;
+    font-size: 12px;
+}
+
+.baloon {
+    width: 150px;
+    position: absolute;
+    margin-left: 400px;
+}
+
+.bowser {
+    width: 200px;
+    margin-left: 550px;
+}
