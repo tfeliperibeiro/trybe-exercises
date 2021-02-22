@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header h1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.nav-menu ul {
+  text-align: center;
+  list-style: none;
+  margin-top: 50px;
+}
+
+.nav-menu ul li{
+  display: inline;
+}
+
+.nav-menu ul li a {
+  text-decoration: none;
+  margin: 0px 20px;
+  text-transform: uppercase;
+}
+
+.fatos{
+  text-align: center;
+  max-width: 500px;
+  margin-top: 80px;
+  margin-left: 50px;
+}
