@@ -1,0 +1,92 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;;
+}
+
+.header h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.nav-menu ul {
+  text-align: center;
+  list-style: none;
+  margin-top: 50px;
+}
+
+.nav-menu ul li {
+  display: inline;
+  margin: 0px 10px;
+  text-decoration: none;
+}
+
+.nav-menu ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+
+.nav-menu ul li a:hover {
+  color: #D40D12;
+}
+
+section {
+  padding: 30px 0px;
+}
+
+img {
+  max-width: 500px;
+  box-shadow: 1px 1px 10px 1px rgb(0, 0, 0, 0.4);
+  border-radius: 20px 50px;
+}
+
+article {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+aside {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.text-fatos {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.info-geral {
+  margin-top: 20px;
+}
+
+table th,
+td {
+  border: 1px solid #D40D12;
+  padding: 10px 4px;
+}
+
+.saiba-mais ul {
+  list-style: none;
+}
+
+.saiba-mais ul li {
+  padding: 10px;
+  display: inline;
+}
+
+.saiba-mais a {
+  color: black;
+  text-decoration: none;
+}
+
+.saiba-mais ul li a:hover {
+  color: #D40D12;
+}
+
+footer {
+  text-align: center;
+  margin-top: 100px;
+}
