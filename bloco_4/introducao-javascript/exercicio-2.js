@@ -8,9 +8,9 @@ let n1 = 30;
 let n2 = 25;
 
 if (n1 > n2) {
-  console.log(n1 + " é maior")
+  console.log(n1 + " é maior");
 } else {
-  console.log(n2 + " é maior")
+  console.log(n2 + " é maior");
 }
 
 
