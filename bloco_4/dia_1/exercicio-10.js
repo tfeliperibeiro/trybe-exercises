@@ -7,5 +7,5 @@ if (custoProduto >= 0 && valorVenda >= 0) {
   let lucroProduto = (valorVenda - totalProduto) * 1000;
   console.log(lucroProduto);
 } else {
-  console.log('Erro, valor inválido.')
+  console.log('Erro, valor inválido')
 }
