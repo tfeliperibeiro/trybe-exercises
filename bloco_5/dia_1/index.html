@@ -74,8 +74,14 @@
     }
     tagUppercase();
     //------------------------------------------------------------
-
-    
+    function ShowTag() {
+      let mostraTag = document.getElementsByTagName('p');
+      for (let index = 0; index < mostraTag.length; index += 1) {
+        let mostrar = mostraTag[index];
+        console.log(mostrar);
+      }
+    }
+    ShowTag();
   </script>
 </body>
 
