@@ -42,9 +42,24 @@
     </div>
   </div>
   <script>
-    document.querySelector('.center-content').firstElementChild.innerText=('Futuro Desenvolvedor Web.');
-    document.querySelector('.main-content').style.backgroundColor = 'rgb(76,164,109)';
-
+    function changeText() {
+      let paragrafo = document.getElementsByTagName('p')[0];
+      paragrafo.innerHTML = 'Futuro desenvolvedor';
+    }
+    changeText();
+    //------------------------------------------------------------
+    function changeColor() {
+      let mudaCor = document.querySelector('.main-content');
+      mudaCor.style.backgroundColor = 'rgb(76,164,109)';
+    }
+    changeColor();
+    //------------------------------------------------------------
+    function changeColorWhite() {
+      let mudaCor2 = document.querySelector('.center-content');
+      mudaCor2.style.backgroundColor = 'white';
+    }
+    changeColorWhite();
+    //------------------------------------------------------------
   </script>
 </body>
 
