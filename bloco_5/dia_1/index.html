@@ -60,6 +60,22 @@
     }
     changeColorWhite();
     //------------------------------------------------------------
+    function correctText() {
+      let texto = document.getElementsByTagName('h1')[0];
+      texto.innerHTML = ('Exercício 5.1 - JavaScript');
+    }
+    correctText();
+    //------------------------------------------------------------
+    function tagUppercase() {
+      let paragrafo = document.getElementsByTagName('p');
+      for (let index = 0; index < paragrafo.length; index += 1) {
+        paragrafo[index].style.textTransform = 'uppercase';
+      }
+    }
+    tagUppercase();
+    //------------------------------------------------------------
+
+    
   </script>
 </body>
 
