@@ -38,6 +38,6 @@ function creatDays() {
       getList.appendChild(dayItem);
     }
   }
-}
+};
 
 creatDays();
