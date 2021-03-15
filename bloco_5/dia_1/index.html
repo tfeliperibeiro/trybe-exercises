@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Exercício 5.1</title>
+
+  <style>
+    div {
+      border-color: black;
+      border-style: solid;
+    }
+
+    .title {
+      text-align: center;
+    }
+
+    .main-content {
+      background-color: yellow;
+    }
+
+    .main-content .center-content {
+      background-color: red;
+      width: 50%;
+      margin: 0 auto;
+    }
+
+    .main-content .center-content p {
+      font-style: italic;
+    }
+  </style>
+</head>
+
+<body>
+  <h1 class="title">Exercício 5.1 - JavaEscripito </h1>
+  <div class="main-content">
+    <div class="center-content">
+      <p>Texto padrão do nosso site</p>
+      <p>-----</p>
+      <p>Trybe</p>
+    </div>
+  </div>
+  <script>
+    function changeText() {
+      let paragrafo = document.getElementsByTagName('p')[0];
+      paragrafo.innerHTML = 'Futuro desenvolvedor Web';
+    }
+    changeText();
+    //------------------------------------------------------------
+    function changeColor() {
+      let mudaCor = document.querySelector('.main-content');
+      mudaCor.style.backgroundColor = 'rgb(76,164,109)';
+    }
+    changeColor();
+    //------------------------------------------------------------
+    function changeColorWhite() {
+      let mudaCor2 = document.querySelector('.center-content');
+      mudaCor2.style.backgroundColor = 'white';
+    }
+    changeColorWhite();
+    //------------------------------------------------------------
+    function correctText() {
+      let texto = document.getElementsByTagName('h1')[0];
+      texto.innerHTML = ('Exercício 5.1 - JavaScript');
+    }
+    correctText();
+    //------------------------------------------------------------
+    function tagUppercase() {
+      let paragrafo = document.getElementsByTagName('p');
+      for (let index = 0; index < paragrafo.length; index += 1) {
+        paragrafo[index].style.textTransform = 'uppercase';
+      }
+    }
+    tagUppercase();
+    //------------------------------------------------------------
+    function ShowTag() {
+      let mostraTag = document.getElementsByTagName('p');
+      for (let index = 0; index < mostraTag.length; index += 1) {
+        let mostrar = mostraTag[index];
+        console.log(mostrar);
+      }
+    }
+    ShowTag();
+  </script>
+</body>
+
+</html>
