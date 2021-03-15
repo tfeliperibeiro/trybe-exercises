@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#cabecalho {
+  text-align: center;
+}
+
+#conteudo {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#btn {
+  margin: 0 auto;
+}
+
+.colorBody,
+.colorText {
+  text-align: center;
+  padding: 10px;
+}
+
+.tamanhoFonte,
+.espacoFonte {
+  text-align: center;
+  padding: 10px;
+}
