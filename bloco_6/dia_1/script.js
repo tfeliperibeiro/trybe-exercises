@@ -1,4 +1,5 @@
 let allStates = document.getElementById('estados');
+let inputDate = document.getElementById('data');
 
 let states = [
   'AC',
@@ -39,3 +40,11 @@ function createOption() {
 }
 
 createOption();
+
+function createBar() {
+  if (inputDate.value.length === 2 || inputDate.value.length === 5) {
+    inputDate.value += '/';
+  }
+};
+
+inputDate.addEventListener('keypress', createBar);

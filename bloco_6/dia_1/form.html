@@ -13,44 +13,50 @@
   <form action="" method="GET">
     <fieldset>
       <label for="input-nome">Digite seu nome:
-        <input type="text" name="nome" id="input-nome" maxlength="40" required>
+        <input type="text" name="nome" id="input-nome" maxlength="40" placeholder="Nome:" required>
       </label>
-
       <br>
-
       <label for="input-email">Digite seu e-mail:
-        <input type="text" name="email" id="input-email" maxlength="50" required>
+        <input type="text" name="email" id="input-email" maxlength="50" placeholder="E-mail:" required>
       </label>
-
       <br>
-
       <label for="input-cpf">Digite seu cpf:
-        <input type="text" name="cpf" id="input-cpf" maxlength="11" required>
+        <input type="text" name="cpf" id="input-cpf" maxlength="11" placeholder="CPF:" required>
       </label>
-
       <br>
-
       <label for="input-cpf">Digite seu Endereço:
-        <input type="text" name="endereco" id="input-endereco" maxlength="200" required>
+        <input type="text" name="endereco" id="input-endereco" maxlength="200" placeholder="Endereço:" required>
       </label>
-
       <br>
-
       <label for="estados">Selecione seu estado:
         <select name="estados" id="estados">
         </select>
       </label>
-
       <br>
       <label for="casa-apartamento">Tipo de imovel:
         <input type="radio" name="casa-apartamento" id="casa" value="casa" checked required>Casa
         <input type="radio" name="casa-apartamento" id="apartamento" value="apartamento" required>Apartamento
       </label>
-
+    </fieldset>
+    <br>
+    <fieldset>
+      <label for="resumo">Resumo do currículo:
+        <textarea name="resumo" id="resumo" cols="30" rows="5" maxlength="1000" required></textarea>
+      </label>
+      <br>
+      <label for="cargo">Cargo:
+        <input type="text" name="cargo" id="cargo" maxlength="40" required>
+      </label>
+      <br>
+      <label for="descricao">Descrição do cargo:
+        <input type="text" name="descricao-cargo" id="descricao" maxlength="500" required>
+      </label>
+      <br>
+      <label for="data">Data de inicio:
+        <input type="text" name="data-inicio" id="data" maxlength="10" required>
+      </label>
     </fieldset>
   </form>
-
-
   <script src="script.js"></script>
 </body>
 
